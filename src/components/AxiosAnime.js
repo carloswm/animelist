@@ -23,12 +23,8 @@ const AxiosAnime = () => {
                 title: img.attributes.slug
             }
         })
-
-        console.log(anime)
         setData(anime)
-
     }
-
 
     return (
         <div className="list-container">

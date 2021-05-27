@@ -7,6 +7,7 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import AnimeDetails from './components/AnimeDetails';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
           </ul>
         </nav>
         <Switch>
+          <Route path="/details/:id">
+            <AnimeDetails />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
