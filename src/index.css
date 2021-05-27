@@ -11,3 +11,61 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.list-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.container-grid {
+  margin: 5px;
+  position: relative;
+}
+
+.container-grid:hover {
+  background: #000;
+  opacity: 0.5;
+  transition: ease 0.5s;
+}
+
+.card p {
+  display: none;
+}
+
+.container-grid:hover p {
+  display: block !important;
+  color: #264653;
+  font-weight: 800;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-transform: capitalize;
+  top: 40%;
+  transition: ease 0.5s;
+}
+
+.card img {
+  border: 1px solid #000;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-bar ul{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.nav-bar ul li{
+  display: block;
+  padding: 0 10px;
+}
+
+.nav-bar ul li a {
+  color: #264653;
+}
+
+.nav-bar ul li a:hover {
+  color: #;
+}
